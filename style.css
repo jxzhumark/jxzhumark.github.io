@@ -154,8 +154,9 @@ h1 em {
   gap: 70px;
   margin: 0 -28px;
   padding: 58px 56px 54px;
-  background: var(--green);
-  color: #f6f4ec;
+  background: #f3f4ed;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
 }
 .about p {
   margin: 0;
@@ -163,11 +164,11 @@ h1 em {
   max-width: 760px;
 }
 .about .eyebrow {
-  color: #b8c9bd;
+  color: var(--muted);
 }
 .about h2 {
   margin-top: 12px;
-  color: white;
+  color: var(--ink);
 }
 .about dl {
   display: grid;
@@ -175,20 +176,20 @@ h1 em {
   gap: 18px;
   margin: 38px 0 0;
   padding-top: 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  border-top: 1px solid var(--line);
 }
 .about dl div {
   min-width: 0;
 }
 .about dt {
   margin-bottom: 6px;
-  color: #b8c9bd;
+  color: var(--muted);
   font: 600 11px/1.4 var(--sans);
   letter-spacing: 0.1em;
 }
 .about dd {
   margin: 0;
-  color: #f6f4ec;
+  color: var(--ink);
   font-size: 13px;
   line-height: 1.55;
 }
